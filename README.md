@@ -48,4 +48,4 @@ Each package owns only this provider and its passive documentation. Its `Replace
 
 ## Illustrated user guide
 
-The installed package contains only `Islamic Computational Calendar.so` and `Islamic Computational Calendar.pdf`. Developers' audit and source records stay in GitHub, with binary qualification recorded in Debian control metadata. The public guide comes from `docs/GUIDE.json`.
+The installed package contains only `Islamic Computational Calendar.so` and `Calendar-Islamic.pdf`. Developers' audit and source records stay in GitHub, with binary qualification recorded in Debian control metadata. The public guide comes from `docs/GUIDE.json`.
