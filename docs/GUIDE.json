@@ -1,12 +1,7 @@
 {
   "title": "Islamic Computational Calendar",
-  "intro": "An Islamic lunar calendar calculated by software rather than declared after a particular local crescent sighting. Its month boundaries follow the project's ICU-based computational model.",
-  "summary": "Twelve months in a lunar year. Month boundaries are computed, rather than taken from a fixed alternating 29/30-day table.",
-  "origin": "The Islamic calendar is rooted in the Hijri era. This particular implementation uses ICU's computational astronomy-based Islamic scheme; that is a modern algorithm, not a claim about historical sightings.",
-  "ring_label": "12",
-  "diagram_title": "A COMPUTED LUNAR YEAR",
-  "structure": "The program follows a repeating sequence of twelve named lunar months. Their lengths are generally 29 or 30 days, with boundaries determined by the computational model.",
-  "diagram_caption": "MONTHS FOLLOW A CALCULATED LUNAR PATTERN",
+  "intro": "This computational Islamic calendar represents Hijri lunar dates through ICU's astronomy-based algorithm rather than local crescent announcements.",
+  "structure": "Twelve named lunar months generally have 29 or 30 days. Month boundaries are calculated rather than following a fixed alternating table.",
   "sections": [
     {
       "name": "Muharram",
@@ -69,9 +64,12 @@
       "special": false
     }
   ],
-  "pattern_note": "Unlike the separate Islamic Civil Calendar, this provider does not simply follow a fixed arithmetic alternation of long and short months. Actual details depend on ICU's supported implementation and date range.",
-  "history": "Lunar dates matter to religious and community events, but calendars based on calculations can disagree with announcements based on crescent visibility, geography, or a particular religious authority.",
-  "example": "Ramadan is month nine. A local authority may announce its beginning on a day that differs from the software's computed boundary; that is a difference of calendar method, not necessarily a software error.",
-  "limits": "This module does not promise an observed crescent date, an official local religious ruling, or an accurate historical reconstruction outside the supported ICU model range.",
-  "source": "https://github.com/Infiltrator-Projects/Calendar-Islamic"
+  "model": "The supported date range and astronomical calculation follow the ICU implementation. This is separate from the arithmetic Islamic Civil and tabular variants and the bounded Umm al-Qura table.",
+  "example": "Ramadan is month nine; a local authority can announce its beginning on a different date from the calculated boundary.",
+  "history": "Islamic date reckoning is rooted in the Hijri era. Communities use different calculation and crescent-observation methods for religious and civil events.",
+  "limits": "Not a guarantee of historical or local crescent visibility, an official religious determination or a conversion beyond ICU's supported domain.",
+  "sources": [
+    "https://github.com/Infiltrator-Projects/Calendar-Islamic",
+    "Model evidence: https://github.com/Infiltrator-Projects/Calendar-Islamic/blob/main/docs/MODEL.md"
+  ]
 }
